@@ -5,10 +5,10 @@ function init(){
 
   var mysql = require('mysql');
   var con = mysql.createConnection({
-      host: "20157.m.tld.pl",
-      user: "admin20157_126",
-      password: "0VbH}r4VOB",
-      database: "baza20157_126"
+      host: ",
+      user: "",
+      password: "",
+      database: ""
   });
   
   con.connect(function (err:any) {
